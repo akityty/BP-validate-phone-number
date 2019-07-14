@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPhoneNumber(str) {
+        var regexp = /^[0-9]{2}(?:-[0-9]{10})$/;
+        return regexp.test(str);
+    }
+    let str = prompt("nhap so dien thoai");
+    console.log(isPhoneNumber(str));
+
+</script>
+</body>
+</html>
